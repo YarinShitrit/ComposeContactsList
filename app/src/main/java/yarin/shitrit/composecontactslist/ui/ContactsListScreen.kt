@@ -1,4 +1,4 @@
-package yarin.shitrit.composecontactslist
+package yarin.shitrit.composecontactslist.ui
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
@@ -35,6 +35,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.bumptech.glide.integration.compose.ExperimentalGlideComposeApi
 import com.bumptech.glide.integration.compose.GlideImage
 import kotlinx.coroutines.launch
+import yarin.shitrit.composecontactslist.R
 import yarin.shitrit.composecontactslist.data.Contact
 import yarin.shitrit.composecontactslist.viewmodel.ContactsListUiState
 import yarin.shitrit.composecontactslist.viewmodel.ContactsViewModel

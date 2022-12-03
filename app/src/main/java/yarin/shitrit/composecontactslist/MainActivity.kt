@@ -27,6 +27,8 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.MemoryCategory
 import dagger.hilt.android.AndroidEntryPoint
 import yarin.shitrit.composecontactslist.navigation.ScreenRoute
+import yarin.shitrit.composecontactslist.ui.ContactsListScreen
+import yarin.shitrit.composecontactslist.ui.DetailedContactScreen
 import yarin.shitrit.composecontactslist.utils.ContactsContractUtils
 import yarin.shitrit.composecontactslist.viewmodel.ContactsViewModel
 
@@ -38,7 +40,7 @@ class MainActivity : ComponentActivity(), LoaderManager.LoaderCallbacks<Cursor> 
         Glide.get(this).setMemoryCategory(MemoryCategory.HIGH)
         setContent {
             Surface(color = Color.White, modifier = Modifier.fillMaxHeight()) {
-                InitApp()
+               InitApp()
             }
         }
         if (ContextCompat.checkSelfPermission(

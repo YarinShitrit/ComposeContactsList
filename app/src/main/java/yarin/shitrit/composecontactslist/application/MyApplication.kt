@@ -11,6 +11,7 @@ import dagger.hilt.android.HiltAndroidApp
 class MyApplication : Application() {
 
     override fun onCreate() {
+        super.onCreate()
         StrictMode.setThreadPolicy(
             ThreadPolicy.Builder()
                 .detectAll()
@@ -23,6 +24,5 @@ class MyApplication : Application() {
                 .penaltyLog()
                 .build()
         )
-        super.onCreate()
     }
 }

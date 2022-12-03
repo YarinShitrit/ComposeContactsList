@@ -1,4 +1,4 @@
-package yarin.shitrit.composecontactslist
+package yarin.shitrit.composecontactslist.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -26,6 +26,7 @@ import androidx.lifecycle.compose.ExperimentalLifecycleComposeApi
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.bumptech.glide.integration.compose.ExperimentalGlideComposeApi
 import com.bumptech.glide.integration.compose.GlideImage
+import yarin.shitrit.composecontactslist.R
 import yarin.shitrit.composecontactslist.data.*
 import yarin.shitrit.composecontactslist.viewmodel.ContactsViewModel
 

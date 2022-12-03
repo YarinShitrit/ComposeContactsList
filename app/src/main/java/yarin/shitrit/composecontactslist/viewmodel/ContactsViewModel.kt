@@ -50,7 +50,7 @@ class ContactsViewModel @Inject constructor(savedStateHandle: SavedStateHandle) 
     private var detailedContact: Contact? = null
 
     init {
-        //updates the detailedContactScreen with the contact from savedStateHandle
+        //updates the detailedContactScreen with the previous detailed contact using savedStateHandle
         _detailedContactUiState.update { currentState ->
             currentState.copy(contact = savedDetailedContact.value)
         }
