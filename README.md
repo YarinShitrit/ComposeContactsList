@@ -1,6 +1,6 @@
 # Contacts List App
 
-This is a simple Contacts List app written in Kotlin using Jetpack Compose. The app allows search function to find contacts quickly. The UI is designed with Jetpack Compose, which makes it easy to customize and maintain.
+This is a simple Contacts List app written in Kotlin using Jetpack Compose written in MVVM architecture. The app allows search function to find contacts quickly. The UI is designed with Jetpack Compose, which makes it easy to customize and maintain.
 
 ## Features
 
@@ -16,6 +16,9 @@ This project uses the following technologies:
 - Kotlin
 - Jetpack Compose
 - Coroutines
+- ViewModel
+- Navigation
+- Dagger Hilt
 - Material Design
 
 ## Installation
